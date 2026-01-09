@@ -1,16 +1,40 @@
-# React + Vite
+# React To-Do App
+This is a simple To-Do application built using React.  
+I created this project to practice React fundamentals like state management,
+component structure, and working with browser storage.
+The app allows users to add and delete tasks, and the data is stored using
+localStorage so tasks remain even after refreshing the page.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Live Demo
+https://shreyaa-todo-app.netlify.app
 
-Currently, two official plugins are available:
+# Features
+- Add new tasks
+- Delete tasks
+- Tasks are saved using localStorage
+- Simple and clean user interface
+- Fully responsive
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Technologies Used
+- React
+- Vite
+- JavaScript
+- CSS / Tailwind CSS
+- Git & GitHub
 
-## React Compiler
+# Deployment
+The project is deployed on Netlify and connected with GitHub.
+Any new changes pushed to the GitHub repository are automatically deployed.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# What I Learned
+- Managing state using React hooks
+- Working with localStorage for data persistence
+- Using Git and GitHub for version control
+- Deploying a React app on Netlify
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# How to Run the Project Locally
+1. Clone the repository
+2. Install dependencies
+   ```bash
+   npm install
